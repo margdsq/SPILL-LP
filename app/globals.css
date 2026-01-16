@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900;
+    font-family: var(--font-outfit), var(--font-inter), system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .liquid-glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 
+      0 8px 32px 0 rgba(230, 230, 250, 0.3),
+      0 4px 16px 0 rgba(240, 255, 244, 0.2);
+  }
+  
+  .liquid-glass-lavender {
+    box-shadow: 
+      0 8px 32px 0 rgba(230, 230, 250, 0.4),
+      0 4px 16px 0 rgba(230, 230, 250, 0.3);
+  }
+  
+  .liquid-glass-mint {
+    box-shadow: 
+      0 8px 32px 0 rgba(240, 255, 244, 0.4),
+      0 4px 16px 0 rgba(240, 255, 244, 0.3);
+  }
+  
+  .bento-card {
+    @apply rounded-bento liquid-glass border border-white/20;
+  }
+  
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better scroll performance */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
