@@ -6,22 +6,22 @@ const notifications = [
   {
     type: 'roast',
     from: 'App',
-    title: 'Tabac République 🚬',
-    message: "13€ de clopes ? C'est ça la France de Macron. Ton livret A est en PLS.",
+    title: 'Tobacco Shop 🚬',
+    message: "$13 on cigarettes? Your savings account is crying.",
     color: 'from-red-400 to-pink-400',
   },
   {
     type: 'social-roast',
     from: 'Lucas ☕️',
     title: 'Social Roast',
-    message: "Encore un Starbucks ? C'est pour ça que tu n'as pas de maison, tix.",
+    message: "Another Starbucks? That's why you don't have a house, bro.",
     color: 'from-orange-400 to-red-400',
   },
   {
     type: 'care',
     from: 'App',
     title: 'Uber 🚗',
-    message: "Il pleuvait trop, tu as bien fait de prendre un Uber. On est ensemble.",
+    message: "It was raining too much, you did the right thing taking an Uber. We're in this together.",
     color: 'from-green-400 to-emerald-400',
   },
 ]

@@ -8,7 +8,7 @@ const careNotifications = [
     id: 1,
     app: 'SPILL',
     title: '',
-    message: "Compte connecté ! On commence ?",
+    message: "Account connected! Ready to start?",
     emoji: '',
     delay: 0.5,
   },
@@ -16,7 +16,7 @@ const careNotifications = [
     id: 2,
     app: 'SPILL',
     title: '',
-    message: "Je vois que tu dépenses beaucoup en cafés. On en parle ?",
+    message: "I see you're spending a lot on coffee. Want to talk about it?",
     emoji: '',
     delay: 1.5,
   },
@@ -25,20 +25,20 @@ const careNotifications = [
 const steps = [
   {
     number: '01',
-    title: 'Connecte tes comptes',
-    description: 'En quelques clics, connecte tes comptes bancaires. C\'est sécurisé et ça prend moins de 2 minutes.',
+    title: 'Connect your accounts',
+    description: 'In just a few clicks, connect your bank accounts. It\'s secure and takes less than 2 minutes.',
     emoji: '',
   },
   {
     number: '02',
-    title: 'Parle avec ton conseiller IA',
-    description: 'Pose tes questions, demande des conseils, crée un budget. Ton conseiller IA comprend ta situation et te répond sans jargon.',
+    title: 'Chat with your AI advisor',
+    description: 'Ask questions, get advice, create a budget. Your AI advisor understands your situation and responds without jargon.',
     emoji: '',
   },
   {
     number: '03',
-    title: 'Reçois des notifications fun',
-    description: 'Des notifications qui te font rire au lieu de stresser. Finies les alertes anxiogènes.',
+    title: 'Receive fun notifications',
+    description: 'Notifications that make you laugh instead of stress. No more anxiety-inducing alerts.',
     emoji: '',
   },
 ]
@@ -55,10 +55,10 @@ export default function HowItWorks() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            Comment ça marche ?
+            How it works
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Trois étapes simples pour transformer ta relation avec l'argent
+            Three simple steps to transform your relationship with money
           </p>
         </motion.div>
 

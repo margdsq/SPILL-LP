@@ -37,36 +37,36 @@ export default function BudgetTracking() {
             className="space-y-6"
           >
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Définis tes objectifs,
+              Set your goals,
               <br />
               <span className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                on s'occupe du reste
+                we'll handle the rest
               </span>
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Dis simplement à ton IA ce que tu veux économiser. 
-              Un widget apparaît automatiquement pour tracker tes progrès en temps réel.
+              Simply tell your AI what you want to save. 
+              A widget automatically appears to track your progress in real time.
             </p>
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-red-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Parle à ton IA</p>
-                  <p className="text-gray-600">"J'aimerais économiser 300€ pour un voyage"</p>
+                  <p className="font-semibold text-gray-900">Talk to your AI</p>
+                  <p className="text-gray-600">"I'd like to save $300 for a trip"</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-pink-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Widget automatique</p>
-                  <p className="text-gray-600">Un tracker apparaît dans ton app pour suivre tes économies</p>
+                  <p className="font-semibold text-gray-900">Automatic widget</p>
+                  <p className="text-gray-600">A tracker appears in your app to follow your savings</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Suivi en temps réel</p>
-                  <p className="text-gray-600">Vois tes progrès évoluer au fur et à mesure de tes économies</p>
+                  <p className="font-semibold text-gray-900">Real-time tracking</p>
+                  <p className="text-gray-600">Watch your progress evolve as you save</p>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function BudgetTracking() {
                     className="flex justify-end"
                   >
                     <div className="max-w-[75%] rounded-3xl px-4 py-3 bg-gradient-to-br from-indigo-500 to-purple-500 text-white text-sm">
-                      J'aimerais économiser 300€ pour un voyage
+                      I'd like to save $300 for a trip
                     </div>
                   </motion.div>
                   <motion.div
@@ -135,7 +135,7 @@ export default function BudgetTracking() {
                     className="flex justify-start"
                   >
                     <div className="max-w-[75%] rounded-3xl px-4 py-3 bg-white/90 backdrop-blur-xl text-gray-900 text-sm border border-gray-200/50">
-                      Parfait ! J'ai créé un widget pour tracker ton objectif. Tu as déjà économisé 135€ !
+                      Perfect! I've created a widget to track your goal. You've already saved $135!
                     </div>
                   </motion.div>
                 </div>
@@ -162,13 +162,13 @@ export default function BudgetTracking() {
                     }}
                   >
                     <div className="mb-3">
-                      <h3 className="font-bold text-gray-900 text-lg mb-1">Voyage</h3>
-                      <p className="text-sm text-gray-600">Objectif d'économies</p>
+                      <h3 className="font-bold text-gray-900 text-lg mb-1">Trip</h3>
+                      <p className="text-sm text-gray-600">Savings goal</p>
                     </div>
                     <div className="mb-4">
                       <div className="flex justify-between items-baseline mb-2">
-                        <span className="text-3xl font-bold text-gray-900">135€</span>
-                        <span className="text-sm text-gray-500">/ 300€</span>
+                        <span className="text-3xl font-bold text-gray-900">$135</span>
+                        <span className="text-sm text-gray-500">/ $300</span>
                       </div>
                       {/* Progress bar */}
                       <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
@@ -181,7 +181,7 @@ export default function BudgetTracking() {
                       </div>
                     </div>
                     <p className="text-xs text-gray-500">
-                      Plus que 165€ pour atteindre ton objectif
+                      Only $165 left to reach your goal
                     </p>
                   </div>
                 </motion.div>

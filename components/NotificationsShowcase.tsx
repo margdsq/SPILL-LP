@@ -9,7 +9,7 @@ const roastNotifications = [
     id: 1,
     app: 'Uber Eats',
     title: '',
-    message: "La flemme a un prix : c'est 28 balles pour un burger froid. Bravo l'artiste.",
+    message: "Laziness has a price: $28 for a cold burger. Well done, champ.",
     emoji: '',
     delay: 0.5,
   },
@@ -17,7 +17,7 @@ const roastNotifications = [
     id: 2,
     app: 'Hola',
     title: '',
-    message: "90% du plafond. Il va falloir apprendre à vivre d'amour et d'eau fraîche (surtout d'eau fraîche).",
+    message: "90% of your limit. Time to learn to live on love and fresh water (mostly fresh water).",
     emoji: '',
     delay: 1.5,
   },
@@ -25,7 +25,7 @@ const roastNotifications = [
     id: 3,
     app: 'SPILL',
     title: '',
-    message: "Alerte rouge. Ton banquier vient de s'acheter une nouvelle Tesla grâce à tes agios. Merci pour lui.",
+    message: "Red alert. Your banker just bought a new Tesla thanks to your overdraft fees. Thanks for that.",
     emoji: '',
     delay: 2.5,
   },
@@ -33,7 +33,7 @@ const roastNotifications = [
     id: 4,
     app: 'SPILL',
     title: '',
-    message: "Encore au resto ? On rappelle que tu as des pâtes et du pesto qui t'attendent tristement dans ton placard.",
+    message: "Eating out again? Just a reminder that you have pasta and pesto waiting sadly in your cupboard.",
     emoji: '',
     delay: 3.5,
   },
@@ -44,7 +44,7 @@ const careNotifications = [
     id: 1,
     app: 'Uber',
     title: '',
-    message: "Il pleuvait trop, tu as bien fait de prendre un Uber. On est ensemble.",
+    message: "It was raining too much, you did the right thing taking an Uber. We're in this together.",
     emoji: '',
     delay: 0.5,
   },
@@ -52,7 +52,7 @@ const careNotifications = [
     id: 2,
     app: 'SPILL',
     title: '',
-    message: "Tu as économisé 50€ cette semaine ! Continue comme ça",
+    message: "You saved $50 this week! Keep it up 💪",
     emoji: '',
     delay: 1.5,
   },
@@ -60,7 +60,7 @@ const careNotifications = [
     id: 3,
     app: 'SPILL',
     title: '',
-    message: "Ton budget est sous contrôle. Félicitations !",
+    message: "Your budget is under control. Congratulations! 🎉",
     emoji: '',
     delay: 2.5,
   },
@@ -90,10 +90,10 @@ export default function NotificationsShowcase() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            Des notifications qui dédramatisent
+            Notifications that lighten the mood
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Choisis ton style : bienveillant ou roast. C'est toi qui décides.
+            Choose your style: caring or roast. It's up to you.
           </p>
         </motion.div>
 
@@ -109,7 +109,7 @@ export default function NotificationsShowcase() {
           >
             <div className="mb-4">
               <span className="text-lg font-bold bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">
-                Mode Roast
+                Roast Mode
               </span>
             </div>
             <IPhoneWithNotifications mode="roast" notifications={roastNotifications} />
@@ -126,7 +126,7 @@ export default function NotificationsShowcase() {
           >
             <div className="mb-4">
               <span className="text-lg font-bold bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">
-                Mode Care
+                Care Mode
               </span>
             </div>
             <IPhoneWithNotifications mode="care" notifications={careNotifications} />

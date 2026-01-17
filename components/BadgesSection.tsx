@@ -14,32 +14,32 @@ interface Badge {
 const badges: Badge[] = [
   {
     id: 1,
-    title: 'Badge de plus grosse clopeuse',
-    description: "Parmi tes potes, t'es celle qui a le plus claqué de thunes en clope cette semaine.",
+    title: 'Biggest Smoker Badge',
+    description: "Among your friends, you're the one who spent the most money on cigarettes this week.",
     icon: '🚬',
     iconPosition: 'left',
     type: 'bad',
   },
   {
     id: 2,
-    title: 'Badge de plus gros rat',
-    description: "Chloé attend ton virement depuis la semaine dernière, tu l'as bien mérité celui là.",
+    title: 'Biggest Cheapskate Badge',
+    description: "Chloe has been waiting for your transfer since last week, you've earned this one.",
     icon: '🐭',
     iconPosition: 'right',
     type: 'bad',
   },
   {
     id: 3,
-    title: 'Badge de budget master',
-    description: "Tu as respecté ton budget cette semaine. Félicitations, c'est pas donné à tout le monde.",
+    title: 'Budget Master Badge',
+    description: "You stuck to your budget this week. Congratulations, that's not given to everyone.",
     icon: '💰',
     iconPosition: 'left',
     type: 'good',
   },
   {
     id: 4,
-    title: 'Badge de roi du meal prep',
-    description: "Tu n'as commandé qu'une seule fois cette semaine. Tes économies te remercient.",
+    title: 'Meal Prep King Badge',
+    description: "You only ordered delivery once this week. Your savings thank you.",
     icon: '🍱',
     iconPosition: 'right',
     type: 'good',
@@ -58,10 +58,10 @@ export default function BadgesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            Des badges pour tes accomplissements
+            Badges for your achievements
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Bien ou mal, tes actions méritent d'être reconnues. Parfois avec humour, toujours avec bienveillance.
+            Good or bad, your actions deserve recognition. Sometimes with humor, always with kindness.
           </p>
         </motion.div>
 
@@ -113,9 +113,9 @@ export default function BadgesSection() {
           className="text-center mt-12"
         >
           <p className="text-lg text-gray-600">
-            Gagne des badges en accomplissant des objectifs ou en faisant des erreurs. 
+            Earn badges by achieving goals or making mistakes. 
             <br />
-            C'est comme ça qu'on apprend, avec le sourire.
+            That's how we learn, with a smile.
           </p>
         </motion.div>
       </div>

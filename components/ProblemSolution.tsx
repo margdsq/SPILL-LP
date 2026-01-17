@@ -14,9 +14,9 @@ export default function ProblemSolution() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            Tu galères avec tes finances ?
+            Struggling with your finances?
             <br />
-            <span className="text-gray-600">On a la solution.</span>
+            <span className="text-gray-600">We have the solution.</span>
           </h2>
         </motion.div>
 
@@ -29,23 +29,23 @@ export default function ProblemSolution() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Le problème</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">The Problem</h3>
             <ul className="space-y-4 text-gray-600 text-lg">
               <li className="flex items-start gap-3">
                 <span className="text-red-500 mt-1">✗</span>
-                <span>Les apps bancaires sont compliquées et stressantes</span>
+                <span>Banking apps are complicated and stressful</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-500 mt-1">✗</span>
-                <span>Tu ne comprends pas le jargon financier</span>
+                <span>You don't understand financial jargon</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-500 mt-1">✗</span>
-                <span>Les notifications te font paniquer</span>
+                <span>Notifications make you panic</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-500 mt-1">✗</span>
-                <span>Gérer son budget, c'est pas marrant</span>
+                <span>Managing your budget isn't fun</span>
               </li>
             </ul>
           </motion.div>
@@ -58,23 +58,23 @@ export default function ProblemSolution() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">La solution SPILL</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">The SPILL Solution</h3>
             <ul className="space-y-4 text-gray-600 text-lg">
               <li className="flex items-start gap-3">
                 <span className="text-green-500 mt-1">✓</span>
-                <span>Connecte tes comptes en 2 clics, c'est sécurisé</span>
+                <span>Connect your accounts in 2 clicks, it's secure</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-500 mt-1">✓</span>
-                <span>Une IA qui parle comme toi, sans jargon</span>
+                <span>An AI that speaks like you, without jargon</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-500 mt-1">✓</span>
-                <span>Des notifications drôles qui dédramatisent</span>
+                <span>Funny notifications that lighten the mood</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-500 mt-1">✓</span>
-                <span>Gérer son budget devient fun</span>
+                <span>Managing your budget becomes fun</span>
               </li>
             </ul>
           </motion.div>

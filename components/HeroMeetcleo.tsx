@@ -1,15 +1,16 @@
 'use client'
 
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import IPhoneWithNotifications from './IPhoneWithNotifications'
+import WaitlistModal from './WaitlistModal'
 
 const roastNotifications = [
   {
     id: 1,
     app: 'Uber Eats',
     title: '',
-    message: "La flemme a un prix : c'est 28 balles pour un burger froid. Bravo l'artiste.",
+    message: "Laziness has a price: $28 for a cold burger. Well done, champ.",
     emoji: '',
     delay: 0.5,
   },
@@ -17,7 +18,7 @@ const roastNotifications = [
     id: 2,
     app: 'Hola',
     title: '',
-    message: "90% du plafond. Il va falloir apprendre à vivre d'amour et d'eau fraîche (surtout d'eau fraîche).",
+    message: "90% of your limit. Time to learn to live on love and fresh water (mostly fresh water).",
     emoji: '',
     delay: 1.5,
   },
@@ -25,7 +26,7 @@ const roastNotifications = [
     id: 3,
     app: 'SPILL',
     title: '',
-    message: "Alerte rouge. Ton banquier vient de s'acheter une nouvelle Tesla grâce à tes agios. Merci pour lui.",
+    message: "Red alert. Your banker just bought a new Tesla thanks to your overdraft fees. Thanks for that.",
     emoji: '',
     delay: 2.5,
   },
@@ -33,7 +34,7 @@ const roastNotifications = [
     id: 4,
     app: 'SPILL',
     title: '',
-    message: "Encore au resto ? On rappelle que tu as des pâtes et du pesto qui t'attendent tristement dans ton placard.",
+    message: "Eating out again? Just a reminder that you have pasta and pesto waiting sadly in your cupboard.",
     emoji: '',
     delay: 3.5,
   },
@@ -44,7 +45,7 @@ const careNotifications = [
     id: 1,
     app: 'Uber',
     title: '',
-    message: "Il pleuvait trop, tu as bien fait de prendre un Uber. On est ensemble.",
+    message: "It was raining too much, you did the right thing taking an Uber. We're in this together.",
     emoji: '',
     delay: 0.5,
   },
@@ -52,7 +53,7 @@ const careNotifications = [
     id: 2,
     app: 'SPILL',
     title: '',
-    message: "Tu as économisé 50€ cette semaine ! Continue comme ça",
+    message: "You saved $50 this week! Keep it up 💪",
     emoji: '',
     delay: 1.5,
   },
@@ -60,6 +61,7 @@ const careNotifications = [
 
 export default function HeroMeetcleo() {
   const containerRef = useRef<HTMLElement>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ['start start', 'end start'],
@@ -83,34 +85,35 @@ export default function HeroMeetcleo() {
             className="space-y-6"
           >
             <h1 className="text-5xl md:text-7xl font-bold leading-tight text-gray-900">
-              Tu n'arrives pas à ouvrir ton application bancaire ?
+              Can't bring yourself to open your banking app?
               <br />
               <span className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                SPILL s'occupe de tout.
+                SPILL takes care of everything.
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
-              Parle avec ton conseiller IA financier. Sans stress, sans jargon. 
-              Des notifications qui te font rire au lieu de stresser.
+              Chat with your AI financial advisor. No stress, no jargon. 
+              Notifications that make you laugh instead of stress.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => setIsModalOpen(true)}
                 className="px-8 py-4 bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow"
               >
-                Créer mon compte
+                Join Waitlist
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-700 rounded-full font-semibold text-lg hover:border-gray-300 transition-colors"
               >
-                En savoir plus
+                Learn More
               </motion.button>
             </div>
             <p className="text-sm text-gray-500 pt-2">
-              Gratuit • Sécurisé • Moins de 2 minutes
+              Free • Secure • Less than 2 minutes
             </p>
           </motion.div>
 
@@ -131,6 +134,7 @@ export default function HeroMeetcleo() {
           </motion.div>
         </div>
       </div>
+      <WaitlistModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </section>
   )
 }

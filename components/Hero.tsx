@@ -7,9 +7,9 @@ import IPhoneWithNotifications from './IPhoneWithNotifications'
 const roastNotifications = [
   {
     id: 1,
-    app: 'Tabac République',
+    app: 'Tobacco Shop',
     title: '',
-    message: "13€ de clopes ? C'est ça la France de Macron. Ton livret A est en PLS.",
+    message: "$13 on cigarettes? Your savings account is crying.",
     emoji: '🚬',
     delay: 0.5,
   },
@@ -17,7 +17,7 @@ const roastNotifications = [
     id: 2,
     app: 'Starbucks',
     title: '',
-    message: "Encore un café à 6€ ? À ce rythme, tu vas finir sous un pont.",
+    message: "Another $6 coffee? At this rate, you'll end up under a bridge.",
     emoji: '☕️',
     delay: 1.5,
   },
@@ -25,7 +25,7 @@ const roastNotifications = [
     id: 3,
     app: 'Uber Eats',
     title: '',
-    message: "25€ de bouffe livrée ? Tu sais qu'il y a un frigo chez toi ?",
+    message: "$25 on delivery? You know you have a fridge at home, right?",
     emoji: '🍔',
     delay: 2.5,
   },
@@ -36,7 +36,7 @@ const careNotifications = [
     id: 1,
     app: 'Uber',
     title: '',
-    message: "Il pleuvait trop, tu as bien fait de prendre un Uber. On est ensemble.",
+    message: "It was raining too much, you did the right thing taking an Uber. We're in this together.",
     emoji: '🚗',
     delay: 0.5,
   },
@@ -44,7 +44,7 @@ const careNotifications = [
     id: 2,
     app: 'SPILL',
     title: '',
-    message: "Tu as économisé 50€ cette semaine ! Continue comme ça 💪",
+    message: "You saved $50 this week! Keep it up 💪",
     emoji: '💰',
     delay: 1.5,
   },
@@ -52,7 +52,7 @@ const careNotifications = [
     id: 3,
     app: 'SPILL',
     title: '',
-    message: "Ton budget est sous contrôle. Félicitations ! 🎉",
+    message: "Your budget is under control. Congratulations! 🎉",
     emoji: '✨',
     delay: 2.5,
   },
@@ -128,8 +128,8 @@ export default function Hero() {
             We spill the tea about your finances.
           </p>
           <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto">
-            L'app qui connecte tes comptes bancaires et transforme la gestion d'argent en quelque chose de fun. 
-            Avec une IA qui t'aide et des notifications qui te font rire au lieu de stresser.
+            The app that connects your bank accounts and turns money management into something fun. 
+            With an AI that helps you and notifications that make you laugh instead of stress.
           </p>
         </motion.div>
 

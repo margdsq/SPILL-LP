@@ -13,31 +13,31 @@ interface Message {
 const chatMessages: Message[] = [
   {
     id: 1,
-    text: "Salut ! Je suis ton assistant financier SPILL 💰",
+    text: "Hey! I'm your SPILL financial assistant 💰",
     sender: 'ai',
     delay: 0.5,
   },
   {
     id: 2,
-    text: "Tu peux me donner une personnalité : veux-tu que je sois bienveillant ou que je te roast ? 😏",
+    text: "You can give me a personality: do you want me to be caring or roast you? 😏",
     sender: 'ai',
     delay: 1.5,
   },
   {
     id: 3,
-    text: "Je veux que tu sois bienveillant mais direct",
+    text: "I want you to be caring but direct",
     sender: 'user',
     delay: 2.5,
   },
   {
     id: 4,
-    text: "Parfait ! Je vais t'aider à gérer ton budget avec bienveillance mais sans te mentir 💚",
+    text: "Perfect! I'll help you manage your budget with care but without lying to you 💚",
     sender: 'ai',
     delay: 3.5,
   },
   {
     id: 5,
-    text: "Tu as dépensé 45€ en cafés cette semaine. On peut réduire ça ?",
+    text: "You spent $45 on coffee this week. Can we reduce that?",
     sender: 'ai',
     delay: 4.5,
   },
@@ -86,14 +86,14 @@ export default function AIAssistant() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-            Ton Assistant IA Financier
+            Your AI Financial Assistant
           </h2>
           <p className="text-xl text-gray-600 mb-2">
-            Un chat intelligent qui t'aide à budgetiser et gérer tes finances
+            An intelligent chat that helps you budget and manage your finances
           </p>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Connecte tes comptes, pose tes questions, et laisse l'IA te guider. 
-            Tu peux même lui donner une personnalité : bienveillant ou roast, c'est toi qui choisis.
+            Connect your accounts, ask questions, and let the AI guide you. 
+            You can even give it a personality: caring or roast, it's your choice.
           </p>
         </motion.div>
 
@@ -148,7 +148,7 @@ export default function AIAssistant() {
                   </div>
                   <div>
                     <div className="font-bold text-sm text-gray-900">SPILL Assistant</div>
-                    <div className="text-xs text-gray-500">En ligne</div>
+                    <div className="text-xs text-gray-500">Online</div>
                   </div>
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function AIAssistant() {
               <div className="absolute bottom-0 left-0 right-0 px-4 py-4 bg-white/90 backdrop-blur-xl border-t border-gray-200/50">
                 <div className="flex items-center gap-2">
                   <div className="flex-1 rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-500">
-                    Taper un message...
+                    Type a message...
                   </div>
                   <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
                     <span className="text-white text-sm">→</span>

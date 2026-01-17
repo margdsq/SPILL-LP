@@ -35,14 +35,14 @@ export default function ValueProposition() {
         >
           <h2 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-              Dédramatiser tes finances
+              Lighten up your finances
             </span>
             <br />
-            <span className="text-gray-900">n'a jamais été aussi simple</span>
+            <span className="text-gray-900">has never been so simple</span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Tu n'arrives pas à ouvrir ton compte en banque ? Pas de problème. 
-            SPILL connecte tes comptes et transforme la gestion d'argent en quelque chose de fun.
+            Can't bring yourself to open your bank account? No problem. 
+            SPILL connects your accounts and turns money management into something fun.
           </p>
         </motion.div>
 
@@ -57,9 +57,9 @@ export default function ValueProposition() {
             <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center text-4xl mb-4 mx-auto">
               🔗
             </div>
-            <h3 className="text-2xl font-bold mb-3">Connecte tes comptes</h3>
+            <h3 className="text-2xl font-bold mb-3">Connect your accounts</h3>
             <p className="text-gray-600">
-              En quelques clics, connecte tes comptes bancaires. C'est sécurisé et rapide.
+              In just a few clicks, connect your bank accounts. It's secure and fast.
             </p>
           </motion.div>
 
@@ -73,9 +73,9 @@ export default function ValueProposition() {
             <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-4xl mb-4 mx-auto">
               🤖
             </div>
-            <h3 className="text-2xl font-bold mb-3">Une IA qui t'aide</h3>
+            <h3 className="text-2xl font-bold mb-3">An AI that helps you</h3>
             <p className="text-gray-600">
-              Ton assistant financier personnalisé te guide, budgetise et répond à tes questions.
+              Your personalized financial assistant guides you, budgets and answers your questions.
             </p>
           </motion.div>
 
@@ -89,9 +89,9 @@ export default function ValueProposition() {
             <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-red-400 to-orange-500 flex items-center justify-center text-4xl mb-4 mx-auto">
               😂
             </div>
-            <h3 className="text-2xl font-bold mb-3">Notifications drôles</h3>
+            <h3 className="text-2xl font-bold mb-3">Funny notifications</h3>
             <p className="text-gray-600">
-              Des notifications qui te font rire au lieu de stresser. Finies les alertes anxiogènes.
+              Notifications that make you laugh instead of stress. No more anxiety-inducing alerts.
             </p>
           </motion.div>
         </div>
@@ -104,16 +104,16 @@ export default function ValueProposition() {
           className="bento-card p-8 max-w-4xl mx-auto"
         >
           <div className="text-center">
-            <h3 className="text-3xl font-bold mb-4">Pourquoi SPILL ?</h3>
+            <h3 className="text-3xl font-bold mb-4">Why SPILL?</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              La gestion d'argent, c'est pas marrant. On le sait. Mais ça peut être moins stressant. 
-              SPILL transforme tes dépenses en conversations, tes budgets en défis, et tes erreurs en moments drôles. 
-              Parce que se prendre la tête sur ses finances, c'est pas obligatoire.
+              Money management isn't fun. We know. But it can be less stressful. 
+              SPILL turns your expenses into conversations, your budgets into challenges, and your mistakes into funny moments. 
+              Because stressing about your finances isn't mandatory.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <span className="px-4 py-2 rounded-full bg-red-100 text-red-700 font-medium">Pas de jargon bancaire</span>
-              <span className="px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium">100% dédramatisé</span>
-              <span className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 font-medium">Drôle et utile</span>
+              <span className="px-4 py-2 rounded-full bg-red-100 text-red-700 font-medium">No banking jargon</span>
+              <span className="px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-medium">100% lightened up</span>
+              <span className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 font-medium">Fun and useful</span>
             </div>
           </div>
         </motion.div>

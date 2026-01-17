@@ -13,31 +13,31 @@ interface Message {
 const chatMessages: Message[] = [
   {
     id: 1,
-    text: "Salut ! Je suis ton conseiller financier SPILL. Comment je peux t'aider aujourd'hui ?",
+    text: "Hey! I'm your SPILL financial advisor. How can I help you today?",
     sender: 'ai',
     delay: 0.5,
   },
   {
     id: 2,
-    text: "Je galère avec mon budget, j'ai l'impression de tout dépenser",
+    text: "I'm struggling with my budget, I feel like I'm spending everything",
     sender: 'user',
     delay: 1.5,
   },
   {
     id: 3,
-    text: "Pas de stress ! Je vois que tu dépenses beaucoup en livraison. On peut créer un budget pour ça ?",
+    text: "No stress! I see you're spending a lot on delivery. Want to create a budget for that?",
     sender: 'ai',
     delay: 2.5,
   },
   {
     id: 4,
-    text: "Oui bonne idée !",
+    text: "Yes, good idea!",
     sender: 'user',
     delay: 3.5,
   },
   {
     id: 5,
-    text: "Parfait ! J'ai créé un budget de 100€ par mois pour la livraison. Tu es déjà à 85€ ce mois-ci. On fait quoi ?",
+    text: "Perfect! I've created a $100/month budget for delivery. You're already at $85 this month. What should we do?",
     sender: 'ai',
     delay: 4.5,
   },
@@ -119,8 +119,8 @@ export default function AIChatSection() {
                       AI
                     </div>
                     <div>
-                      <div className="font-bold text-sm text-gray-900">Conseiller SPILL</div>
-                      <div className="text-xs text-gray-500">En ligne • Répond instantanément</div>
+                      <div className="font-bold text-sm text-gray-900">SPILL Advisor</div>
+                      <div className="text-xs text-gray-500">Online • Responds instantly</div>
                     </div>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function AIChatSection() {
                 <div className="absolute bottom-0 left-0 right-0 px-4 py-4 bg-white/90 backdrop-blur-xl border-t border-gray-200/50">
                   <div className="flex items-center gap-2">
                     <div className="flex-1 rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-500">
-                      Taper un message...
+                      Type a message...
                     </div>
                     <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
                       <span className="text-white text-sm">→</span>
@@ -187,36 +187,36 @@ export default function AIChatSection() {
             className="space-y-6 order-2 lg:order-2"
           >
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Parle avec ton
+              Chat with your
               <br />
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                conseiller IA
+                AI advisor
               </span>
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Pas de chatbot robotique. Ton conseiller IA comprend ta situation, 
-              répond à tes questions et t'aide à prendre les bonnes décisions financières.
+              No robotic chatbot. Your AI advisor understands your situation, 
+              answers your questions and helps you make the right financial decisions.
             </p>
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Pose tes questions</p>
-                  <p className="text-gray-600">"Pourquoi je dépense autant ?", "Comment économiser ?"</p>
+                  <p className="font-semibold text-gray-900">Ask your questions</p>
+                  <p className="text-gray-600">"Why am I spending so much?", "How can I save?"</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Reçois des conseils</p>
-                  <p className="text-gray-600">Ton IA analyse tes dépenses et te propose des solutions</p>
+                  <p className="font-semibold text-gray-900">Get advice</p>
+                  <p className="text-gray-600">Your AI analyzes your spending and suggests solutions</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-pink-500 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-gray-900">Crée tes objectifs</p>
-                  <p className="text-gray-600">"Je veux économiser 300€" et ton IA crée le tracker</p>
+                  <p className="font-semibold text-gray-900">Create your goals</p>
+                  <p className="text-gray-600">"I want to save $300" and your AI creates the tracker</p>
                 </div>
               </div>
             </div>

@@ -40,7 +40,7 @@ export default function CustomTeaAlerts() {
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder="Mec, encore un McDo ? Ton banquier va faire une attaque."
+            placeholder="Dude, McDonald's again? Your banker is going to have a heart attack."
             rows={3}
             className="w-full px-4 py-3 rounded-xl liquid-glass border border-white/20 focus:outline-none focus:ring-2 focus:ring-purple-400 resize-none"
           />
